@@ -1,0 +1,152 @@
+body {
+  font-size: 62.5%;
+  font-style: Arial;
+  color: Black;
+  }
+
+.animation-box {
+  width: 35%;
+  height: 10rem;
+  background-color: white;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  top: 5rem;
+  text-align: center;
+  right: -37.5rem;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+  text-align: center;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -0.5rem;
+    opacity: 0;
+    /* left: 8.7rem; */
+
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+    /* left: 8.7rem; */
+  }
+
+  80% {
+    opacity: 0;
+    /* left: 8.7rem; */
+  }
+
+  90% {
+    opacity: 0;
+    /* left: 8.7rem; */
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes topFadeOut1 {
+  0% {
+    position: absolute;
+    top: 35rem;
+    opacity: 0;
+    /* left: 8.7rem; */
+
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+    /* left: 8.7rem; */
+  }
+
+  80% {
+    opacity: 0;
+    /* left: 8.7rem; */
+  }
+
+  90% {
+    opacity: 0;
+    /* left: 8.7rem; */
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+#cities {
+  font-size: 2.5rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 0;
+  color: white;
+  text-align: center;
+}
+
+
+
+.first-text {
+  animation-name: topFadeOut;
+  animation-duration: 10s;
+  text-align: center;
+}
+
+.second-text {
+  animation-name: topFadeOut1;
+  animation-duration: 10s;
+  text-align: center;
+}
+
+button {
+  border-radius: 100px;
+}
+
+/* #adding-area {
+  background-color: (255, 255, 255, 0);
+  position: absolute;
+  top: 95%;
+  left: 395px;
+  width:60%;
+  height: 500px;
+  text-align: center;
+  font-size: 40px;
+} */
+
+.adding-area {
+  /* background-color: (255, 255, 255, 0); */
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  right: 15px;
+  width:35%;
+  height: 500px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#intro {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+#introtext {
+  margin:auto;
+  width: 100%;
+  opacity: 0;
+}
